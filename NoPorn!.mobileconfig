@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>NoPorn! bloquea l'accès au sites porno</string>
+		</dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadDisplayName</key>
+				<string>Domains</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.domains.61c4608d-5019-44d6-8605-1d95086d4989</string>
+				<key>PayloadType</key>
+				<string>com.apple.domains</string>
+				<key>PayloadUUID</key>
+				<string>61c4608d-5019-44d6-8605-1d95086d4989</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>PayloadDisplayName</key>
+				<string>Restrictions</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.applicationaccess.2ca96788-475f-4e3c-99ba-e01caab856e0</string>
+				<key>PayloadType</key>
+				<string>com.apple.applicationaccess</string>
+				<key>PayloadUUID</key>
+				<string>2ca96788-475f-4e3c-99ba-e01caab856e0</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>AutoFilterEnabled</key>
+				<true />
+				<key>FilterType</key>
+				<string>BuiltIn</string>
+				<key>PayloadDisplayName</key>
+				<string>Web Content Filter</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.webcontent-filter.e7461bbc-ac18-4652-97b2-b6dd0cf69978</string>
+				<key>PayloadType</key>
+				<string>com.apple.webcontent-filter</string>
+				<key>PayloadUUID</key>
+				<string>b41ea14b-a92c-4b73-aa62-01ea5076f55f</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PermittedURLs</key>
+				<array>
+					<string>https://www.blockaway.net</string>
+					<string>https://blockaway.net</string>
+					<string>https://proxyium.com</string>
+					<string>https://plainproxies.com</string>
+					<string>https://instantunblock.com</string>
+					<string>https://proxysite.site</string>
+					<string>https://smartprix.com</string>
+				</array>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Bloque l'accès au sites porno</string>
+		<key>PayloadDisplayName</key>
+		<string>NoPorn!</string>
+		<key>PayloadIdentifier</key>
+		<string>NoPorn.7bc92be7-36b1-457c-b26b-cb84a64001db</string>
+		<key>PayloadOrganization</key>
+		<string>NoPorn! Open source</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true />
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>3eafb8ad-f15a-4a02-a146-f5d8b3e1667f</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>TargetDeviceType</key>
+		<integer>1</integer>
+	</dict>
+</plist>
