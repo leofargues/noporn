@@ -1,4 +1,4 @@
-# NoPorn! Quittez le porno !
+# NoPorn! Quittez le porno ! Windows Only !
 
 
 Installation très simple d'une liste complète de sites Porno et Proxy
